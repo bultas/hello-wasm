@@ -23,16 +23,6 @@ docker run --rm --name=hello-wasm \
   hello-wasm
 ```
 
-## Install
-
-```
-rustup target add wasm32-wasi
-```
-
-```
-cargo new hello-wasm
-```
-
 ## Links
 
 - https://www.docker.com/blog/docker-wasm-technical-preview/
