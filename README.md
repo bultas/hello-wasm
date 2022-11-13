@@ -1,6 +1,12 @@
 ## Build
 
 ```
+docker build --platform wasi/wasm32 -t hello-wasm .
+```
+
+## Build manual
+
+```
 cargo build --target wasm32-wasi --release
 ```
 
@@ -27,4 +33,5 @@ cargo new hello-wasm
 
 ## Links
 
+- https://www.docker.com/blog/docker-wasm-technical-preview/
 - https://nigelpoulton.com/getting-started-with-docker-and-wasm/
