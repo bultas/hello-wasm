@@ -1,0 +1,8 @@
+services:
+  app:
+    image: hello-wasm
+    build:
+      context: .
+      platforms:
+        - wasi/wasm32
+    runtime: io.containerd.wasmedge.v1
