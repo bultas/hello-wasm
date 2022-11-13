@@ -14,6 +14,8 @@ cargo build --target wasm32-wasi --release
 docker build --platform wasi/wasm32 -t hello-wasm .
 ```
 
+## Run
+
 ```
 docker run --rm --name=hello-wasm \
   --runtime=io.containerd.wasmedge.v1 \
