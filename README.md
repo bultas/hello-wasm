@@ -11,7 +11,7 @@ cargo build --target wasm32-wasi --release
 ```
 
 ```
-docker build --platform wasi/wasm32 -t hello-wasm .
+docker build -f Dockerfile_wrapper --platform wasi/wasm32 -t hello-wasm .
 ```
 
 ## Run
